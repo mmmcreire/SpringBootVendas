@@ -3,11 +3,7 @@ package io.vendasSB.domain.entity;
 import javax.persistence.*;
 
 @Entity
-<<<<<<< HEAD
-@Table( name = "cliente" )
-=======
-@Table (name = "cliente")
->>>>>>> 25ddc03bd9437b4cbecd31d4c7a32292a4084bda
+@Table(name = "cliente")
 public class Cliente {
 
     @Id

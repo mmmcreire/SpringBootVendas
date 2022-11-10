@@ -18,8 +18,8 @@ public class VendasApplication {
             clientes.save(new Cliente("Fulano"));
             clientes.save(new Cliente("Outro Cliente"));
 
-            boolean existe = clientes.existsByNome("aaaaaaa");
-            System.out.println("existe um cliente com o nome Dougllas? " + existe);
+            boolean existe = clientes.existsByNome("aaaa");
+            System.out.println("existe um cliente com o nome aaaa? " + existe);
         };
     }
 
